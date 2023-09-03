@@ -1,0 +1,35 @@
+.Menu{
+	display: flex;
+	flex-basis: 250px;
+	background-color: #102b51;
+}
+.Menu nav{
+	flex: 1;
+}
+
+.Menu ul{
+	list-style: none;
+	padding: 0;
+	margin: 0;
+}
+
+.Menu li {
+	display: flex;
+}
+
+.Menu a{
+	font-size: 1.5rem;
+	flex: 1;
+	text-decoration: none;
+	padding: 10px;
+	margin-bottom: 5px;
+	color: #fff;
+	transition: 0.2s ease-out;
+	opacity: 0.6;
+	text-align: center;
+}
+
+.Menu a:hover{
+	background-color: #00000030;
+	opacity: 1;
+}
